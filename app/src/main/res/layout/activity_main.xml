@@ -36,6 +36,19 @@
     <com.wx.customviewapp.view.XfermodeView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <!--SportView 文字位置-->
+    <com.wx.customviewapp.view.SportView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <!--MultilineTextView 多行文字-->
+    <com.wx.customviewapp.view.MultilineTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="visible"/>
+
 
 </LinearLayout>
