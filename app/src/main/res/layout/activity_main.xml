@@ -48,6 +48,18 @@
     <com.wx.customviewapp.view.MultilineTextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <!--ClipView 范围裁剪-->
+    <com.wx.customviewapp.view.ClipView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <!--CameraView 几何变换-->
+    <com.wx.customviewapp.view.CameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="visible"/>
 
 
